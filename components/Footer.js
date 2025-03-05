@@ -13,13 +13,13 @@ const Footer = () => {
       <p className="text-sm mt-1">Built with ❤️ by Nilesh Kumar</p>
       
       <div className="flex justify-center gap-6 mt-4">
-        <a href="https://github.com/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition text-2xl">
+        <a href="https://github.com/nileshkumaryadav1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition text-2xl">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition text-2xl">
+        <a href="https://linkedin.com/in/nileshkumar123" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition text-2xl">
           <FaLinkedin />
         </a>
-        <a href="https://twitter.com/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition text-2xl">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition text-2xl">
           <FaTwitter />
         </a>
       </div>
