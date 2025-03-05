@@ -8,7 +8,7 @@ const Footer = () => {
   const isDarkMode = theme === 'dark';
 
   return (
-    <footer className={`py-6 text-center mt-12 ${isDarkMode ? 'bg-gray-900 text-gray-300' : 'bg-gray-100 text-gray-700'}`}>
+    <footer className={`py-6 text-center ${isDarkMode ? 'bg-gray-900 text-gray-300' : 'bg-gray-100 text-gray-700'}`}>
       <p className="text-lg font-semibold">MovieFinder © {new Date().getFullYear()}</p>
       <p className="text-sm mt-1">Built with ❤️ by Nilesh Kumar</p>
       

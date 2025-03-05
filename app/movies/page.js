@@ -39,8 +39,10 @@ const MoviesPage = () => {
           >
             <img src={movie.posterUrl} alt={movie.title} className="w-full h-64 object-cover rounded-lg mb-4" />
             <h2 className="text-2xl font-bold text-purple-400">{movie.title}</h2>
-            <p className="mt-2">{movie.description}</p>
-            <p className="mt-2 text-sm text-gray-400">Genre: {movie.genre} | Year: {movie.releaseYear}</p>
+            <a href={movie.trailerUrl} className="text-sm text-gray-400" target='_blank'>▶️Watch Trailer</a>
+            <p className="mt-2 text-gray-300">{movie.description}</p>
+            <p className="mt-2 text-sm text-gray-400">Genre: {movie.genre}</p>
+            <p className="mt-2 text-sm text-gray-400">Release Date: {movie.releaseYear}</p>
           </motion.div>
         ))}
       </div>

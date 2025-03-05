@@ -7,6 +7,7 @@ const musicSchema = new mongoose.Schema({
   genre: { type: String },
   releaseYear: { type: Number },
   coverUrl: { type: String },
+  youtubeUrl: { type: String },
   createdAt: { type: Date, default: Date.now }
 });
 

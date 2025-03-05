@@ -37,7 +37,7 @@ const AboutPage = () => {
         transition={{ duration: 0.7 }}
       >
         <Image
-          src="/developer.jpg"
+          src="/profile.jpg"
           alt="Nilesh Kumar"
           width={150}
           height={150}
@@ -48,13 +48,13 @@ const AboutPage = () => {
         <p className={`mt-2 text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>Passionate about building amazing web experiences with Next.js, React, and MongoDB.</p>
         
         <div className="flex gap-4 mt-4">
-          <a href="https://github.com/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition text-2xl">
+          <a href="https://github.com/nileshkumaryadav1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition text-2xl">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition text-2xl">
+          <a href="https://linkedin.com/in/nileshkumar123" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition text-2xl">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/nilesh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition text-2xl">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition text-2xl">
             <FaTwitter />
           </a>
         </div>

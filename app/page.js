@@ -10,7 +10,7 @@ const HomePage = () => {
   const isDarkMode = theme === 'dark';
 
   return (
-    <div className={`min-h-screen flex flex-col items-center justify-center px-6 ${isDarkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-900'}`}>
+    <div className={`min-h-screen flex flex-col items-center justify-center px-6 py-3 ${isDarkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-900'}`}>
       <motion.h1 
         className="text-5xl font-extrabold text-center mb-6"
         initial={{ opacity: 0, y: -20 }}
